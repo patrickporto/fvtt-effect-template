@@ -1,13 +1,13 @@
 class TokenManager {
   get targets() {
-    if (game.settings.get('demonlord', 'targetingOnSelect')) {
+    if (game.settings.get('effecttemplate', 'targetingOnSelect')) {
       return canvas.tokens.controlled
     }
     return [...game.user.targets]
   }
 
   targetTokens(tokens) {
-    if (game.settings.get('demonlord', 'targetingOnSelect')) {
+    if (game.settings.get('effecttemplate', 'targetingOnSelect')) {
       for (let tokenId of tokens) {
         const token = canvas.tokens.placeables.find(t => t.id === tokenId)
         token.control({ releaseOthers: false })
