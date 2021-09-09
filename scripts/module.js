@@ -15,3 +15,10 @@ Hooks.on(`renderItemSheet`, async (app, html, data) => {
   const effectTemplateButton = new EffectTemplateButton(app, html)
   effectTemplateButton.render()
 });
+
+Hooks.on("EffectTemplate.PlaceMeasuredTemplate", (item) => {
+  const template = game[game.system.id].canvas['EffectMeasuredTemplate'].fromItem(item)
+  if (template) {
+    template.drawPreview()
+  }
+});
