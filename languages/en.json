@@ -1,3 +1,8 @@
 {
-    "MODULE.hello": "hello"
+    "EFFECTTEMPLATE.SettingtargetingOnSelect": "Replace token targeting with token selection",
+    "EFFECTTEMPLATE.SettingtargetingOnSelectHint": "Replace token targeting with token selection on chat log actions.",
+    "EFFECTTEMPLATE.SettingTemplateAutoTargeting": "Auto targeting with Measured Templates",
+    "EFFECTTEMPLATE.SettingTemplateAutoTargetingHint": "Automatically targets the tokens inside of your placed Measured Template.",
+    "EFFECTTEMPLATE.SettingTemplateAutoRemove": "Auto remove Measured Templates after action",
+    "EFFECTTEMPLATE.SettingTemplateAutoRemoveHint": "Automatically remove Measured Templates healing or damage from Scene."
 }
