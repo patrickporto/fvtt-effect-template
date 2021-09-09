@@ -1,11 +1,20 @@
 {
   "EFFECTTEMPLATE.SettingtargetingOnSelect": "Replace token targeting with token selection",
   "EFFECTTEMPLATE.SettingtargetingOnSelectHint": "Replace token targeting with token selection on chat log actions.",
-  "EFFECTTEMPLATE.SettingTemplateAutoTargeting": "Auto targeting with Measured Templates",
+  "EFFECTTEMPLATE.SettingTemplateAutoTemplateing": "Auto targeting with Measured Templates",
   "EFFECTTEMPLATE.SettingTemplateAutoTargetingHint": "Automatically targets the tokens inside of your placed Measured Template.",
   "EFFECTTEMPLATE.SettingTemplateAutoRemove": "Auto remove Measured Templates after action",
   "EFFECTTEMPLATE.SettingTemplateAutoRemoveHint": "Automatically remove Measured Templates healing or damage from Scene.",
   "EFFECTTEMPLATE.SettingHideFromPlayers": "Hide the Effect Template dialog from Players",
   "EFFECTTEMPLATE.SettingHideFromPlayersHint": "Checking this box will prevent the Effect Template dialog from being seen by Players",
-  "EFFECTTEMPLATE.WindowTitle": "Effect Template"
+  "EFFECTTEMPLATE.WindowTitle": "Effect Template",
+  "EFFECTTEMPLATE.TemplateShape": "Shape",
+  "EFFECTTEMPLATE.TemplateTypesCircle": "Circle",
+  "EFFECTTEMPLATE.TemplateTypesCone": "Cone",
+  "EFFECTTEMPLATE.TemplateTypesCube": "Cube",
+  "EFFECTTEMPLATE.TemplateTypesCylinder": "Cylinder",
+  "EFFECTTEMPLATE.TemplateTypesHemisphere": "Hemisphere",
+  "EFFECTTEMPLATE.TemplateTypesLine": "Line",
+  "EFFECTTEMPLATE.TemplateTypesSphere": "Sphere",
+  "EFFECTTEMPLATE.TemplateTypesSquare": "Square"
 }
