@@ -24,8 +24,8 @@ const initModuleSettings = () => {
     config: true,
   })
   game.settings.register('effecttemplate', 'hideFromPlayers', {
-    name: game.i18n.localize('EFFECTTEMPLATE.SettingTemplateAutoRemove'),
-    hint: game.i18n.localize('EFFECTTEMPLATE.SettingTemplateAutoRemoveHint'),
+    name: game.i18n.localize('EFFECTTEMPLATE.SettingHideFromPlayers'),
+    hint: game.i18n.localize('EFFECTTEMPLATE.SettingHideFromPlayersHint'),
     default: true,
     scope: 'world',
     type: Boolean,
