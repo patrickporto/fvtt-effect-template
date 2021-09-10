@@ -19,7 +19,6 @@ export class EffectMeasuredTemplate extends MeasuredTemplate {
       direction: 0,
       x: 0,
       y: 0,
-      fillColor: null,
       texture: this.flags.texture,
       flags: {
         actionTemplate: true,

@@ -21,6 +21,25 @@
                 {{/each}}
                 {{/select}}
             </select>
+            <input
+                    class="image"
+                    type="text"
+                    name="flags.effecttemplate.texture"
+                    placeholder="path/image.webp"
+                    value="{{flags.effecttemplate.texture}}"
+                    data-dtype="String"
+            />
+            <button
+                    type="button"
+                    class="file-picker"
+                    data-type="imagevideo"
+                    data-target="flags.effecttemplate.texture"
+                    title="File"
+                    tabindex="-1"
+                    style="height: 24px; width: 24px; font-size: 12px; padding: 0; line-height: 7px"
+            >
+              <i class="fas fa-file-import fa-fw"></i>
+            </button>
         </div>
     </section>
 
