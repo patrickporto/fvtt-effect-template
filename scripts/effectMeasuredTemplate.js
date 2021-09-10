@@ -49,7 +49,12 @@ export class EffectMeasuredTemplate extends MeasuredTemplate {
     const object = new this(template)
     object.item = item
     object.actorSheet = item.actor?.sheet || null
+    object.callback = () => {}
     return object
+  }
+
+  onSubmit(callback) {
+    this.callback = callback
   }
 
   /* -------------------------------------------- */
@@ -121,6 +126,8 @@ export class EffectMeasuredTemplate extends MeasuredTemplate {
       if (game.settings.get('effecttemplate', 'autoTargeting')) {
         this.autoTargeting()
       }
+
+      this.callback()
 
       // Create the template
       canvas.scene.createEmbeddedDocuments('MeasuredTemplate', [this.data])
